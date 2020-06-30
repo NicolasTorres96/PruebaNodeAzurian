@@ -1,0 +1,9 @@
+CREATE DATABASE azurian_users;
+USE azurian_users ;
+
+CREATE TABLE users (
+ id INT NOT NULL AUTO_INCREMENT,
+ age INT NOT NULL,
+ name VARCHAR(100) NOT NULL,
+ username VARCHAR(100) NOT NULL,
+ PRIMARY KEY (id));
